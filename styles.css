@@ -163,3 +163,118 @@
     border-radius: 13px;
     font-size: 1rem;
 }
+.body1 .btn1{
+    margin-top: 3rem;
+}
+/* .body2{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; */
+
+.body2 .featuresHeading{
+    font-size: 1.6rem;
+    color: var(--hover-orange);
+    text-transform: capitalize;
+    margin: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.body2 .categories .swiper .swiper-wrapper .swiper-slide{
+    border-radius: 10%;
+    width: 14rem;
+    height: 15rem;
+    text-align: center;
+    margin: 0.5rem 2px;
+    padding: 2px 2px;
+}
+.body2 .categories .swiper .swiper-wrapper .swiper-slide img{
+    width: 12rem;
+    height:11rem;
+    border-radius: 50%;
+}
+/* .body2 .categories .swiper .swiper-wrapper .image1{
+    background-color: #C9F4AA;
+
+}
+.body2 .categories .swiper .swiper-wrapper .image2{
+    background-color: #F7C04A;
+}
+.body2 .categories .swiper .swiper-wrapper .image3{
+    background-color: #FF6464;
+}
+.body2 .categories .swiper .swiper-wrapper .image4{
+    background-color: #539165;
+}
+.body2 .categories .swiper .swiper-wrapper .image4{
+    background-color: #F0FF42;
+} */
+.body2 .shopNow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:1rem;
+    margin: 1rem 2rem;
+    background: var(--main-color);
+    height: 20rem;
+    margin-bottom: 2rem;
+}
+
+.body2 .shopNow .part1{
+    width: 25%;
+    background-color: #EC7272;
+    height: 10rem;
+    padding: 2rem;
+    line-height: 2;
+    font-weight: 100;
+}
+.body2 .shopNow .part2{
+    width: 25%;
+    background-color: #F7A76C;
+    height: 10rem;
+    padding: 2rem;
+    line-height: 2;
+    font-weight: 100;
+}
+.body2 .shopNow .part3{
+    width: 25%;
+   background-color: #C3FF99;
+    height: 10rem;
+    padding: 2rem;
+    line-height: 2;
+    font-weight: 100;
+}
+.footer{
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+.footer .contacts{
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+    color: var(--main-color);
+    height: 20%;
+}
+.footer .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--main-color);
+    height: 30%;
+    margin-top: 2rem;
+}
+.footer .bottom a{
+    font-size: 2rem;
+    color: black;
+    padding: 1rem;
+
+    transition: .3s;
+}
+.footer .bottom a:hover{
+    color: var(--hover-orange);
+    font-size: 2.5rem;
+
+}
